@@ -44,7 +44,6 @@ public class NewYearChaos {
     				actual[i] = temp;
     				bribes += 2;
     		}
-    		System.out.println(Arrays.toString(goal));
     	}
     	
     	if(actual[length - 2] == goal[length - 1]){
@@ -88,7 +87,8 @@ public class NewYearChaos {
     }
 }
 
-/*	start 1 2 3 4 5 6 7 8
+/*	start
+ *  1 2 3 4 5 6 7 8
  * 	1 2 3 5 4 6 7 8
  *  1 2 5 3 4 6 7 8 
  * 	1 2 5 3 4 7 6 8
@@ -97,22 +97,7 @@ public class NewYearChaos {
  *  1 2 5 3 7 8 4 6
  *  1 2 5 3 7 8 6 4 
  *  
- *  
- *  
+ *  goal
  *  1 2 5 3 7 8 6 4
  *  
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
  */
- 
