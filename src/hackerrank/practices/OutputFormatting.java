@@ -21,6 +21,7 @@ public class OutputFormatting {
             for(int i=0;i<3;i++) {
             	System.out.printf("%1$-14s %2$03d", s[i], x[i]);
             	System.out.println();
+            
             }
 
             
