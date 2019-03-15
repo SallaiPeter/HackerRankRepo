@@ -27,7 +27,7 @@ public class Anagrams {
                     }
                 }
             }
-
+            
             a = new String(aString);
             b = new String(bString);
             System.out.println(a + " " + b);
